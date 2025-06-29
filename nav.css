@@ -135,11 +135,11 @@ nav ul li a{
     margin-bottom: 10px;
 }
 .product-card h3{
-    font-size: 1rem;
+    font-size: 2rem;
     margin: 10px 0 8px;
 }
 .stars {
-  font-size: 2rem;
+  font-size: 1rem;
   color: gold;
   letter-spacing: 5px;
 }
@@ -177,7 +177,17 @@ nav ul li a{
     text-align: center;
 }
 .product-card2 img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.product-card2 h3{
+    font-size: 2rem;
+    margin: 10px 0 8px;
+}
+.stars {
+  font-size: 1rem;
+  color: gold;
+  letter-spacing: 5px;
 }
